@@ -13,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  background-image: url("background.svg");
+  background-image: url("/resources/background.svg");
   background-size: cover;
 }
 
