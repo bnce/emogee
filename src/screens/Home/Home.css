@@ -1,6 +1,5 @@
 main {
   height: 100vh;
-  height: fill-available;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -14,11 +13,11 @@ main > section {
 }
 
 main > .upper-section {
-  height: 75vh;
+  flex: 4;
   width: 100%;
 }
 
 main > .lower-section {
-  height: 25vh;
+  flex: 2.5;
   width: 100%;
 }
