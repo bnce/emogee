@@ -11,7 +11,7 @@ const SUPPORTED_LANGUAGES: [string, string][] = [
   ["中文", "zh-CN"],
 ];
 
-export function LanguageSelector({ lang, onChange }: LanguageSelectorProps) {
+export function LanguageSelector({ onChange }: LanguageSelectorProps) {
   return (
     <section className="language-selector">
       {SUPPORTED_LANGUAGES.map(([name, key]) => (
