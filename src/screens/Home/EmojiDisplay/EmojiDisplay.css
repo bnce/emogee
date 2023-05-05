@@ -1,0 +1,14 @@
+.emoji-display {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emoji-display > .emoji {
+  font-size: 5em;
+}
+
+.emoji-display > .keyword {
+  font-size: 2em;
+}
